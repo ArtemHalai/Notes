@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:paddingBottom="60dp">
+
+    <ProgressBar
+        android:id="@+id/footer_progress"
+        android:visibility="visible"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#FFF"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminateDrawable="@drawable/progress_bar"
+        android:layout_gravity="center"/>
+</FrameLayout>

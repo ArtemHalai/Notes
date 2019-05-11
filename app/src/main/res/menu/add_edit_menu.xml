@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share_btn"
+        android:icon="@drawable/ic_share"
+        android:title="share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/remove_btn"
+        android:icon="@drawable/ic_remove"
+        android:title="remove"
+        app:showAsAction="always" />
+</menu>
